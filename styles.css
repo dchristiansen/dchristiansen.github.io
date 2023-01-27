@@ -1,0 +1,147 @@
+body {
+    font-family: 'LT Binary Neue', sans-serif;
+    background-color: #333;
+    color: #f2f2f2;
+    text-align: center;
+
+  }
+  
+  header {
+    background-color: #3e8e41;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 1em;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  nav li {
+    float: left;
+  }
+  
+  #selected {
+    background-color: #333;
+    border-radius: 1em;
+  }
+
+  nav a {
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  section {
+    overflow: auto;
+  }
+
+  nav a:hover {
+    background-color: #555;
+    border-radius: 1em;
+  }
+  
+  main {
+    padding: 1em;
+  }
+  
+  
+  .button {
+    background-color: #555;
+    color: #f2f2f2;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    border-radius: 0.3em;
+  }
+  
+  .button:hover {
+    background-color: #3e8e41;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 1em;
+    bottom: 0;
+    width: 100%;
+  }
+  
+ a{
+  text-decoration: none;
+  color: #52ff5b;
+ }
+
+  h1 {
+    text-align: left;
+  }
+
+  section  {
+    text-align: left;
+  }
+
+  section li {
+    margin-bottom: 10px;
+    padding-left: 20px;
+    list-style-type: square;
+  }
+
+  
+  .card {
+    width: 30%;
+    height: 200px;
+    border: 1px solid #3e8e41;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 1em;
+  }
+  
+  .card h3 {
+    margin: 0;
+    padding: 10px;
+    background-color: #3e8e41;
+    text-align: center;
+  }
+  
+  .card p {
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+  }
+
+  #flashcard-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .odd {
+    text-align: right;
+  }
+  .odd ul {
+    text-align: right;
+    direction: rtl;
+  }
+
+  #books li {
+    display: flex;
+  }
+
+  #books li img {
+    width: 150px; 
+    margin-right: 1em; 
+  }
+
+  #tools li {
+    display: flex; 
+  }
+
+  #tools li img {
+    width: 150px; 
+    margin-right: 1em; 
+  }
