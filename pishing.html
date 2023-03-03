@@ -13,10 +13,11 @@
       <nav>
         <ul>
           <li><a href="index.html">Home</a></li>
-          <li id="selected"><a href="pishing.html">Tips</a></li>
           <li><a href="flashcards.html">Week 1</a></li>
           <li><a href="passwordSec.html">Week 2</a></li>
-          <li><a href="resources.html">Resources</a></li>
+          <li id="selected"><a href="pishing.html">Week 3</a></li>
+          <li><a href="resources.html">Week 4</a></li>
+          <li><a href="mfa.html">Extras: MFA</a></li>
         </ul>
       </nav>
     </header>
@@ -46,17 +47,30 @@
           <li>Use anti-phishing software or browser extensions to help identify and block phishing attempts.</li>
         </ul>
       </section>
-      <h1 class="odd">Privacy On the Internet</h1>
-      <section class ="odd">
-        <h2>Tips to Avoid Falling for Phishing Scams</h2>
-        <ul>
-          <li>Be cautious of unsolicited emails or messages, even if they appear to be from a legitimate source</li>
-          <li>Don't click on links or download attachments from unknown sources</li>
-          <li>Be wary of emails or messages that create a sense of urgency</li>
-          <li>Don't provide personal information or login credentials in response to an email or message</li>
-          <li>Use anti-phishing software or browser extensions to help identify and block phishing attempts</li>
-        </ul>
-      </section>
+
+      <h1>Phishing Quiz</h1>
+	<form id="quiz">
+		<h3>1. What is phishing?</h3>
+		<input type="radio" name="q1" value="a" class="quizRadio"><br>
+		<input type="radio" name="q1" value="b" class="quizRadio">An email scam
+		<input type="radio" name="q1" value="c" class="quizRadio">A type of computer virus
+		<br>
+		<h3>2. What is a common phishing technique?</h3>
+		<input type="radio" name="q2" value="a" class="quizRadio">Sending an email with a link to a fake website that looks legitimate
+		<input type="radio" name="q2" value="b" class="quizRadio">Stealing personal information from a computer
+		<input type="radio" name="q2" value="c" class="quizRadio">Breaking into a computer system
+		<br>
+		<h3>3. What can you do to protect yourself from phishing?</h3>
+		<input type="radio" name="q3" value="a" class="quizRadio">Never open emails from unknown senders
+		<input type="radio" name="q3" value="b" class="quizRadio">Check the sender's email address and don't click on suspicious links
+		<input type="radio" name="q3" value="c" class="quizRadio">Give out personal information if requested<br>
+		<br>
+		<input style="margin: auto; padding-top: 10px;" type="button" value="Submit" onclick="checkAnswers()">
+	</form>
+
+  <div id="results"></div>
+
+	<script src="quiz.js"></script>
 
     </main>
     <footer>
